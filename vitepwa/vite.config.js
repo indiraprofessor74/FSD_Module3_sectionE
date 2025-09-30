@@ -18,6 +18,25 @@ export default defineConfig({
       short_name: 'vitepwa',
       description: 'my first vite pwa app',
       theme_color: '#ffffff',
+        icons: [
+      {
+        src: 'pwa-192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        src: 'pwa-512.png',
+        sizes: '512x512',
+        type: 'image/png',
+      },
+      {
+        src: 'pwa-512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any maskable',
+      },
+    ],
+
     },
 
     workbox: {
